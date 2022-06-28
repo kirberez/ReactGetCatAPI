@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Cookies from "universal-cookie";
 import {
-  BrowserRouter, 
+  HashRouter, 
   Route,
   Routes
 } from 'react-router-dom';
@@ -29,7 +29,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path='/' element={<Header />}>
             <Route path='allcats' element={<AllCats handleLikeCat={handleLikeCat} cats={cats} setCats={setCats} cookies={cookies} />} />
@@ -47,7 +47,7 @@ function App() {
           </Route>
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
