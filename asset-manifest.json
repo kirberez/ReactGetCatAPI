@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ReactGetCatAPI/static/css/main.6053df20.css",
+    "main.js": "/ReactGetCatAPI/static/js/main.ee891302.js",
+    "static/js/787.f1d1fdf5.chunk.js": "/ReactGetCatAPI/static/js/787.f1d1fdf5.chunk.js",
+    "index.html": "/ReactGetCatAPI/index.html",
+    "main.6053df20.css.map": "/ReactGetCatAPI/static/css/main.6053df20.css.map",
+    "main.ee891302.js.map": "/ReactGetCatAPI/static/js/main.ee891302.js.map",
+    "787.f1d1fdf5.chunk.js.map": "/ReactGetCatAPI/static/js/787.f1d1fdf5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6053df20.css",
+    "static/js/main.ee891302.js"
+  ]
+}
